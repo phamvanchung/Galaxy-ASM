@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GALAXY</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="discount">GIẢM ĐẾN 50% TOÀN BỘ CỬA HÀNG | 9.5.2023 - 11.5.2023</div>
+    <section class="header-section">
+      <a href="index.html" class="link-logo">
+        <img src="./shared/images/Galaxy logo-01-01.png" alt="">
+      </a>
+
+      <div class="wrap_icon-header">
+        <img src="./shared/images/person.png" alt="" class="link-person">
+        <img src="./shared/images/cart.png" alt="" class="link-cart">
+        <button id="btn-menu" class="d-none">
+          <svg>
+            <rect class="top" width="26" height="2" x="2" y="6"></rect>
+            <rect class="mid" width="26" height="2" x="2" y="14"></rect>
+            <rect class="mid2" width="26" height="2" x="2" y="14"></rect>
+            <rect class="bot" width="26" height="2" x="2" y="22"></rect>
+          </svg>
+        </button>
+      </div>
+      <form class="form-search">
+        <input placeholder="Bạn muốn tìm gì?">
+        <div class="button-search">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z" />
+          </svg>
+        </div>
+      </form>
+    </section>
+    <nav class="the-menu ">
+      <div class="wrap">
+        <ul class="list-wrapper">
+          <li class="item-slide"><a href="">Trang chủ</a></li>
+          <li class="item-slide"><a href="">Tivi</a></li>
+          <li class="item-slide"><a href="">Tủ lạnh</a></li>
+          <li class="item-slide"><a href="">Máy giặt</a></li>
+          <li class="item-slide"><a href="">Gia dụng</a></li>
+          <li class="item-slide"><a href="">Quạt</a></li>
+          <li class="item-slide"><a href="">Loa</a></li>
+          <li class="item-slide"><a href="">Tủ đông</a></li>
+          <li class="item-slide"><a href="">Quạt điều hòa</a></li>
+          <li class="item-slide"><a href="">Xem các sản phẩm khác</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="thumbnail"></div>
+
+  <div class="trending">
+    <swiper-container class="mySwiper" scrollbar-hide="true">
+      <swiper-slide><img src="./shared/images/slide1.jpg" alt=""></swiper-slide>
+      <swiper-slide><img src="./shared/images/slide2.png" alt=""></swiper-slide>
+      <swiper-slide><img src="./shared/images/slide1.jpg" alt=""></swiper-slide>
+    </swiper-container>
+  
+  
+  
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script>
+    const menuSwiper = new Swiper('.the-menu .swiper', {
+      slidesPerView: 'auto',
+      spaceBetween: 30
+    })
+    document.getElementById('btn-menu').addEventListener('click', () => {
+      document.body.classList.toggle('show-menu');
+    })
+  </script>
+
+</body>
+
+</html>
