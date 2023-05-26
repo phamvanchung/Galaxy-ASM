@@ -61,10 +61,10 @@
   <div class="thumbnail"></div>
 
   <div class="trending">
-    <swiper-container class="mySwiper" scrollbar-hide="true">
-      <swiper-slide><img src="./shared/images/slide1.jpg" alt=""></swiper-slide>
-      <swiper-slide><img src="./shared/images/slide2.png" alt=""></swiper-slide>
-      <swiper-slide><img src="./shared/images/slide1.jpg" alt=""></swiper-slide>
+    <swiper-container class="swiper-trending" scrollbar-hide="true">
+      <swiper-slide class="swiper-slide-trending"><img src="./shared/images/slide1.jpg" alt=""></swiper-slide>
+      <swiper-slide class="swiper-slide-trending"><img src="./shared/images/slide2.png" alt=""></swiper-slide>
+      <swiper-slide class="swiper-slide-trending"><img src="./shared/images/slide1.jpg" alt=""></swiper-slide>
     </swiper-container>
 
     <div class="trend-title">xu hướng mua sắm</div>
@@ -135,7 +135,6 @@
         </div>
         <div class="text-card">Máy lạnh aqua</div>
         <div class="price-card">8.035.000<span class="vnd">&#8363;</span></div>
-
         <div class="wrap-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon-cart-plus">
             <path
@@ -143,12 +142,239 @@
           </svg>
         </div>
       </div>
+    </div>
+  </div>
 
 
+  <div class="wrap-title">
+    <span class="box"></span>
+    <span class="text">Gợi ý <span class="today">hôm nay</span></span>
+  </div>
 
+  <swiper-container class="recommend-container" scrollbar-hide="true">
+    <swiper-slide class="recommend-slide">
+      <div class="wrap-card">
+        <div class="card card-recommend">
+          <img src="./shared/images/HOT-01.png" alt="" class="hot">
+          <div class="wrap_img">
+            <img src="./shared/images/máy hút bụi.jpg" alt="" class="img-product">
+          </div>
+          <div class="text-card">Máy hút bụi dạng hộp 1.4L</div>
+          <div class="price-card">2.603.000<span class="vnd">&#8363;</span></div>
+          <div class="wrap-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon-cart-plus">
+              <path
+                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20V180h44c11 0 20-9 20-20s-9-20-20-20H356V96c0-11-9-20-20-20s-20 9-20 20v44H272c-11 0-20 9-20 20z" />
+            </svg>
+          </div>
+        </div>
+        <div class="card card-recommend">
+          <img src="./shared/images/HOT-01.png" alt="" class="hot">
+          <div class="wrap_img">
+            <img src="./shared/images/may-say.png" alt="" class=" img-product">
+          </div>
+          <div class="text-card">Máy sấy tóc Korichi</div>
+          <div class="price-card">200.000<span class="vnd">&#8363;</span></div>
+          <div class="wrap-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon-cart-plus">
+              <path
+                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20V180h44c11 0 20-9 20-20s-9-20-20-20H356V96c0-11-9-20-20-20s-20 9-20 20v44H272c-11 0-20 9-20 20z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="recommend-slide">
+      <div class="wrap-card">
+        <div class="card card-recommend">
+          <img src="./shared/images/HOT-01.png" alt="" class="hot">
+          <div class="wrap_img">
+            <img src="./shared/images/nồi cơm điện.png" alt="" class="img-product">
+          </div>
+          <div class="text-card">Nồi cơm điện</div>
+          <div class="price-card">500.000<span class="vnd">&#8363;</span></div>
+          <div class="wrap-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon-cart-plus">
+              <path
+                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20V180h44c11 0 20-9 20-20s-9-20-20-20H356V96c0-11-9-20-20-20s-20 9-20 20v44H272c-11 0-20 9-20 20z" />
+            </svg>
+          </div>
+        </div>
+        <div class="card card-recommend">
+          <img src="./shared/images/HOT-01.png" alt="" class="hot">
+          <div class="wrap_img">
+            <img src="./shared/images/bàn ủi hơi nước.png" alt="" class="img-product">
+          </div>
+          <div class="text-card">Bàn ủi hơi nước</div>
+          <div class="price-card">1.600.000<span class="vnd">&#8363;</span></div>
+          <div class="wrap-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon-cart-plus">
+              <path
+                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20V180h44c11 0 20-9 20-20s-9-20-20-20H356V96c0-11-9-20-20-20s-20 9-20 20v44H272c-11 0-20 9-20 20z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+  <div class="wrap-title">
+    <span class="box"></span>
+    <span class="text"><span class="today">Sản Phẩm</span> Thương hiệu</span>
+  </div>
+
+  <swiper-container class="recommend-container" scrollbar-hide="true">
+    <swiper-slide class="recommend-slide">
+      <div class="wrap-brand">
+        <img src="./shared/images/DAIKIN.png" alt="" class="brand-logo">
+        <img src="./shared/images/casper.png" alt="" class="brand-logo">
+        <img src="./shared/images/lg.png" alt="" class="brand-logo">
+        <img src="./shared/images/toshiba.png" alt="" class="brand-logo">
+        <img src="./shared/images/electrolux.png" alt="" class="brand-logo">
+        <img src="./shared/images/auqa.png" alt="" class="brand-logo">
+      </div>
+    </swiper-slide>
+    <swiper-slide class="recommend-slide">
+      <div class="wrap-brand">
+        <img src="./shared/images/sharp.jpg" alt="" class="brand-logo">
+        <img src="./shared/images/panasonic.png" alt="" class="brand-logo">
+        <img src="./shared/images/lg.png" alt="" class="brand-logo">
+        <img src="./shared/images/toshiba.png" alt="" class="brand-logo">
+        <img src="./shared/images/electrolux.png" alt="" class="brand-logo">
+        <img src="./shared/images/auqa.png" alt="" class="brand-logo">
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+  <div class="bg-service">
+    <div class="wrap-title">
+      <span class="box"></span>
+      <span class="text"><span class="today">Dịch vụ</span> nổi bật</span>
+    </div>
+    <div class="wrap_service">
+      <div class="card-service">
+        <img src="./shared/images/money.png" alt="" class="img-service">
+        <div class="title-service">Đóng tiền</div>
+        <div class="desc-service">Điện, Nước, Internet, Cước điện thoại</div>
+      </div>
+      <div class="card-service bg-orange">
+        <img src="./shared/images/clean.png" alt="" class="img-service">
+        <div class="title-service">Vệ sinh</div>
+        <div class="desc-service">Máy lạnh, máy giặt, quạt</div>
+      </div>
+      <div class="card-service bg-red">
+        <img src="./shared/images/card.png" alt="" class="img-service">
+        <div class="title-service">Mua mã thẻ cào</div>
+        <div class="desc-service">Giảm 2% với mệnh giá 100.000 trở lên</div>
+      </div>
+      <div class="card-service bg-blue">
+        <img src="./shared/images/mobile.png" alt="" class="img-service">
+        <div class="title-service">Dịnh vụ đóng tiền</div>
+        <div class="desc-service">Giảm 2% với mệnh giá 300.000 trở lên</div>
+      </div>
     </div>
 
+    <div class="follow-us">THEO DÕI CHÚNG TÔI TẠI</div>
+    <div class="wrap-social">
+      <img src="./shared/images/facebook.png" alt="">
+      <img src="./shared/images/zalo.png" alt="">
+      <img src="./shared/images/tiktok.png" alt="">
+      <img src="./shared/images/Instagram-Icon.png" alt="">
+    </div>
   </div>
+
+
+
+  <div class="footer">
+    <img src="./shared/images/logo-white.png" alt="" class="img-footer">
+    <div class="footer-btn">
+      <span class="text">Sản phẩm Galaxy</span>
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path
+            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+        </svg>
+      </span>
+    </div>
+    <div class="footer-content">
+      <div id="product">
+        <span>Sản phẩm 1</span>
+        <span>Sản phẩm 2</span>
+        <span>Sản phẩm 3</span>
+        <span>Sản phẩm 4</span>
+      </div>
+    </div>
+
+    <div class="footer-btn">
+      <span class="text">Thông tin Galaxy</span>
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path
+            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+        </svg>
+      </span>
+    </div>
+    <div class="footer-content">
+      <div id="product">
+        <span>Thông tin 1</span>
+        <span>Thông tin 2</span>
+        <span>Thông tin 3</span>
+        <span>Thông tin 4</span>
+      </div>
+    </div>
+    <div class="footer-btn">
+      <span class="text">Dịch vụ & hỗ trợ</span>
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path
+            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+        </svg>
+      </span>
+    </div>
+    <div class="footer-content">
+      <div id="product">
+        <span>Dịch vụ 1</span>
+        <span>Dịch vụ 2</span>
+        <span>Dịch vụ 3</span>
+        <span>Dịch vụ 4</span>
+      </div>
+    </div>
+
+    <div class="footer-btn">
+      <span class="text">Mua trực tuyến</span>
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path
+            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+        </svg>
+      </span>
+    </div>
+    <div class="footer-content">
+      <div id="product">
+        <span>Dịch vụ 1</span>
+        <span>Dịch vụ 2</span>
+        <span>Dịch vụ 3</span>
+        <span>Dịch vụ 4</span>
+      </div>
+    </div>
+
+    <div class="icon-text">
+      <img src="./shared/images/location.png" alt="">
+      <span>500 Điện Biên Phủ, Phường 10, Quận 10</span>
+    </div>
+    <div class="icon-text">
+      <img src="./shared/images/hot line.png" alt="">
+      <span>Hotline: 1800 246357</span>
+    </div>
+    <div class="icon-text">
+      <img src="./shared/images/time icon.png" alt="">
+      <span>Giờ làm việc: Thứ 2 - Chủ nhật (8AM - 10PM)</span>
+    </div>
+    <div class="line"></div>
+    <div class="copyright">@ 2023 Galaxy Inc. All rights reserved</div>
+  </div>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
@@ -171,6 +397,16 @@
         });
       });
     });
+
+
+    let footerBtns = document.getElementsByClassName('footer-btn');
+    for (let i = 0; i < footerBtns.length; i++) {
+      footerBtns[i].addEventListener('click', toggleContent);
+    }
+    function toggleContent() {
+      let content = this.nextElementSibling;
+      content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+    }
   </script>
 
 </body>
