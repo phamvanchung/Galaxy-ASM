@@ -264,7 +264,7 @@ body {
 .thumbnail {
   background-image: url("./shared/images/thumbnail.png");
   width: 100%;
-  height: 30rem;
+  height: 34rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -350,10 +350,10 @@ body {
   border: 1px solid var(--color-white);
 }
 .hot {
-  width: 100%;
+  width: 106%;
   position: absolute;
-  top: -1.2rem;
-  left: 0;
+  top: -13px;
+  left: -5px;
 }
 .wrap_img {
   width: 100%;
@@ -457,7 +457,7 @@ body {
   row-gap: 2rem;
 }
 .wrap-brand .brand-logo {
-  width: 10rem;
+  width: 11rem;
 }
 .bg-service {
   background-image: url("./shared/images/bg-service.png");
@@ -475,7 +475,7 @@ body {
 }
 .card-service {
   width: calc(100% / 2 - 2rem);
-  min-height: 12rem;
+  min-height: 12.5rem;
   border-radius: 8px;
   background-color: var(--color-yellow);
   color: var(--color-white);
@@ -494,6 +494,7 @@ body {
   margin-left: 1rem;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  padding-right: 0.5rem;
 }
 .bg-red {
   background-color: var(--color-red);
@@ -542,7 +543,7 @@ body {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  margin: 1rem 0;
+  padding: 0.5rem 0;
 }
 .footer-btn .icon {
   fill: var(--color-white);
@@ -657,8 +658,10 @@ body {
     font-size: 1.4rem;
   }
   .hot {
-    top: -1.3rem;
+    top: -18px;
     height: 4rem;
+    width: 105%;
+    left: -8px;
   }
   .img-product-70 {
     width: 75%;
@@ -671,6 +674,9 @@ body {
   }
   .title-service {
     font-size: 2.2rem;
+  }
+  .card-service {
+    min-height: 14rem;
   }
   .desc-service {
     font-size: 1.4rem;
