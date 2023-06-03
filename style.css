@@ -134,6 +134,7 @@ body {
   border-radius: 0.8rem;
   padding: 0.8rem 1rem;
   border: solid 1px var(--color-yellow);
+  color: var(--color-orange);
 }
 
 .button-search {
@@ -350,7 +351,7 @@ body {
   border: 1px solid var(--color-white);
 }
 .hot {
-  width: 106%;
+  width: 105%;
   position: absolute;
   top: -13px;
   left: -5px;
@@ -475,7 +476,7 @@ body {
 }
 .card-service {
   width: calc(100% / 2 - 2rem);
-  min-height: 12.5rem;
+  min-height: 13rem;
   border-radius: 8px;
   background-color: var(--color-yellow);
   color: var(--color-white);
@@ -707,6 +708,9 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .margin-02 {
+    margin: 2rem 0;
+  }
   .desktop {
     display: block;
   }
@@ -769,7 +773,8 @@ body {
     padding-bottom: 4rem;
   }
   .card-service {
-    width: calc(100% / 4 - 2rem);
+    width: calc(100% / 4 - 1rem);
+    min-height: 15rem;
   }
   .img-service {
     width: 6rem;
@@ -842,5 +847,69 @@ body {
   }
   .icon-text img {
     width: 2rem;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .form-search input {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+  }
+  .link-person {
+    width: 4.2rem;
+  }
+  .link-cart {
+    width: 3.2rem;
+  }
+  .link-logo img {
+    width: 18rem;
+  }
+  .form-search {
+    margin-left: 8rem;
+  }
+  .the-menu .swiper-wrapper {
+    padding: 2rem;
+  }
+  .thumbnail {
+    height: 58rem;
+    background-image: url("./shared/images/thumbnail-dt.png");
+  }
+  .swiper-slide-trending .img-trend {
+    height: 22rem;
+    width: 45rem;
+    display: block;
+  }
+  .wrap-title .text {
+    font-size: 3rem;
+  }
+  .trend-title {
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .item-trend {
+    padding: 1.5rem;
+  }
+  .hot {
+    top: -2rem;
+    height: 6rem;
+    left: -10px;
+  }
+  .wrap-card {
+    row-gap: 2rem;
+  }
+  .card {
+    width: calc(100% / 4 - 4rem);
+  }
+  .img-product {
+    height: 24rem;
+  }
+  .wrap-brand .brand-logo {
+    width: 20rem;
+  }
+  .card-service {
+    width: calc(100% / 4 - 2rem);
+  }
+  .img-footer {
+    width: 20rem;
   }
 }
