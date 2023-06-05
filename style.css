@@ -786,7 +786,6 @@ body {
     font-size: 2.4rem;
   }
   .desc-service {
-    font-size: 1.6rem;
     padding-right: 2rem;
   }
   .footer-btn .text,
@@ -849,7 +848,16 @@ body {
     width: 2rem;
   }
 }
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1280px) {
+  .thumbnail {
+    height: 40rem;
+    background-image: url("./shared/images/thumbnail-dt.png");
+  }
+  .wrap-card {
+    row-gap: 2rem;
+  }
+}
+@media screen and (min-width: 1820px) {
   .form-search input {
     padding: 1rem 2rem;
     font-size: 1.6rem;
@@ -871,7 +879,6 @@ body {
   }
   .thumbnail {
     height: 58rem;
-    background-image: url("./shared/images/thumbnail-dt.png");
   }
   .swiper-slide-trending .img-trend {
     height: 22rem;
