@@ -857,7 +857,7 @@ body {
     row-gap: 2rem;
   }
 }
-@media screen and (min-width: 1820px) {
+@media screen and (min-width: 1800px) {
   .form-search input {
     padding: 1rem 2rem;
     font-size: 1.6rem;
@@ -885,6 +885,9 @@ body {
     width: 45rem;
     display: block;
   }
+  .wrap-brand {
+    column-gap: 2rem;
+  }
   .wrap-title .text {
     font-size: 3rem;
   }
@@ -902,7 +905,7 @@ body {
     left: -10px;
   }
   .wrap-card {
-    row-gap: 2rem;
+    row-gap: 3rem;
   }
   .card {
     width: calc(100% / 4 - 4rem);
